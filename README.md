@@ -27,7 +27,7 @@ The script was tested on N9K using 10.6.1 release.
 
 ## Sample Output
 ```
-n9k-spine# ptpstatus
+n9k-spine# sptp
 
 *** PTP Parent ***
 
