@@ -4,7 +4,7 @@ Additionaly the ptp interval configuration can be shown for each interface.<br>
 To reduce the table width a filter can be configured which shortens the interface descriptions as well as cdp/lldp hostnames. <br>
 ```event manager environment RMLIST "connected-to-, .mydom.dom, yyy-, zzz"```
 
-To use:
+## To use
 1. Copy script to N9K switch ```bootflash:scripts/```
 2. Execute using:
    ```
