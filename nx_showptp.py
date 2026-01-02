@@ -86,9 +86,7 @@ def rmlist_parser():
     ## Get character remove list from environment command
     # Run CLI command to fetch the line(s)
     try:
-        with open("RMLIST.txt", "r") as f:
-            env_cmd = f.read().strip()
-        #env_cmd = cli('show running-config | include "event manager environment"')
+        env_cmd = cli('show running-config | include "event manager environment"')
     except Exception as e:
         print(f"Error running command: {e}")
         env_cmd = None
