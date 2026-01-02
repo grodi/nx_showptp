@@ -1,6 +1,6 @@
 # nx_showptp
 The script prints ptp information in an easy to read table format on NX-OS platforms.<br>
-Additionaly the ptp interval configuration can be shown for each interface.
+Additionaly the ptp interval configuration can be shown for each interface.<br>
 To reduce the table width a filter can be configured which shortens the interface descriptions as well as cdp/lldp hostnames. <br>
 ```event manager environment RMLIST "connected-to-, .mydom.dom, yyy-, zzz"```
 
